@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Shopzen",
+    "slug": "snack-8d6266a1-9d29-442c-afa3-7a3f7e9979e0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      [
+        "sentry-expo",
+        {
+          "organization": "andrewnation",
+          "project": "shopzen"
+        }
+      ]
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.redwars22.shopzen"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e57e2ed3-f511-4144-aba7-dd456d96f6cf"
+      }
+    }
+  }
+}
